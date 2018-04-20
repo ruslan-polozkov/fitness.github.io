@@ -1,0 +1,62 @@
+.sectionHero-bg {
+	position: absolute;
+	width: 60%;
+	height: 100%;
+	// background: #e0aec7;
+	// border-radius: 50%;
+	right: 0;
+	top: 18%;
+	// margin-top: 195px;
+}
+
+.sectionHero-big {
+	position: relative;
+	width: 525px;
+	height: 525px;
+	background: #c00868;
+	opacity: .66;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+.sectionHero-med {
+	position: absolute;
+	width: 440px;
+	height: 440px;
+	background: #c43e94;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+.sectionHero-min {
+	position: absolute;
+	width: 460px;
+	height: 460px;
+	background: #c00868;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+.sectionHero-girl {
+	background-image: url('../img/content/sec1/maingirl.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	
+}
+
+// height 900px
+// margin-top: 195px;
+// width: 60%;

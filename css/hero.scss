@@ -1,0 +1,76 @@
+.sectionHero {
+	background: #ebebeb;
+	min-height: 700px;
+	padding: 30px 0 60px;
+	position: relative;
+}
+
+.sectionHero-header {
+	margin-bottom: 30px;
+}
+
+.header__logo {
+	float: left;
+	.logoLink, .logoDesc {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+.logoDesc {
+	margin-left: 15px;
+	font-size: 20px;
+	color: #2b2b2b;
+}
+
+.header__socials {
+	float: right;
+}
+
+.socialsItem {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 16px;
+	&:first-child {
+		margin-left: none;
+	}
+}
+
+.socialsPic {
+	width: 32px;
+	height: 32px;
+}
+
+// mainhero
+
+.sectionHero-main {
+	width: 55%;
+	float: left;
+}
+
+.mainBox__desc {
+	font-size: 20px;
+	color: #2b2b2b;
+	display: inline-block;
+	padding: 11px 7px;
+	background: #ced4e5;
+	margin-bottom: 43px;
+}
+
+.mainBox__title {
+	font-family: 'ubuntubold';
+	font-size: 60px;
+	color: #284ec6;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.mainBox__text {
+	font-size: 30px;
+	line-height: 6px;
+	color: #2b2b2b;
+	margin-bottom: 80px;
+}
+
+
+
